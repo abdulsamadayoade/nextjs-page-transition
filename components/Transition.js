@@ -10,10 +10,6 @@ const Transition = ({ timeline }) => {
 			y: "100vh",
 			ease: Expo.easeInOut,
 		});
-
-		// return () => {
-		// 	to.kill();
-		// };
 	});
 
 	return <div ref={trans} className="transition"></div>;
